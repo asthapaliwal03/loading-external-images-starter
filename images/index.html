@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Animation with javascript</title>
+<style>
+body{
+  background-image:url("images.jpg");
+  background-repeat: repeat;
+}
+h1{
+  color:white;
+  font-size:30px;
+}
+div{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:20px;
+  margin:10% 10px;
+}
+button{
+  padding:10px;
+  margin:10px;
+  color:white;
+  background-color:black;
+  border:2px solid white;
+  width :180px;
+  height:50px;
+}
+</style>
+</head>
+<body>
+<left>
+<h1 >PLAY</h1>
+<canvas id="myCanvas" width="600" height="600" >
+</canvas>
+</left>
+<div>
+<button  id="kick">Kick(right arrow key)</button>
+<button  id="punch">punch(left arrow key)</button><br/>
+<button id="forward">forward(up arrow key)</button>
+<button id="backward">backward (down arrow key)</button><br/>
+<button id="block" style="margin:10px 30% ;">Block (Enter)</button>
+</div>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
